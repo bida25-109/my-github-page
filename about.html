@@ -1,53 +1,85 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>About Me</title>
+<title>About | Ramotlhwa's Apparel</title>
+
+<!-- Bootstrap CSS --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
 
 <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
 
-<header>
+<header> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary"> 
+        <div class="container"> 
+            <a class="navbar-brand" href="index.html">Ramotlhwa's Apparel</a> 
 
-<h1>About Me</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button> 
 
-<nav>
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+                <ul class="navbar-nav"> 
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="index.html">Home</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="nav-link active" href="about.html">About</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="contact.html">Contact</a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </div> 
+    </nav> 
+</header> 
 
-<a href="index.html">Home</a> |
+<main class="container my-5"> 
 
-<a href="about.html">About</a> |
+    <div class="text-center mb-4">
+        <h2>About Ramotlhwa's Apparel</h2>
+        <p class="lead">Style. Quality. Affordability.</p>
+    </div>
 
-<a href="contact.html">Contact</a>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Our Story</h4>
+            <p>
+                Ramotlhwa's Apparel was created with one goal in mind — 
+                to provide high-quality, stylish clothing with prices everyone can afford.
+            </p>
+            <p>
+                We believe that looking good should not be expensive. 
+                Our store offers comfortable and durable clothing for all occasions.
+            </p>
+        </div>
 
-</nav>
+        <div class="col-md-6">
+            <h4>Why Choose Us?</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Affordable prices</li>
+                <li class="list-group-item">High-quality materials</li>
+                <li class="list-group-item">Modern and stylish designs</li>
+                <li class="list-group-item">Customer satisfaction guaranteed</li>
+            </ul>
+        </div>
+    </div>
 
-</header>
+</main> 
 
-
-<main>
-
-<p>Hi! I'm a beginner web developer learning how to use GitHub Pages.</p>
-
-<p>This is my first multi-page website, and I'm excited to share it with you!</p>
-
-</main>
-
-
-<footer>
-
-<p>&copy; 2026 Pako Ramotlhwa</p>
-
+<footer class="bg-secondary text-white text-center py-3">
+<p>&copy; 2026 Ramotlhwa's Apparel. All Rights Reserved</p>
 </footer>
 
-</body>
+<!-- Bootstrap JS and dependencies --> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
 
+</body>
 </html>
