@@ -135,3 +135,10 @@ color: #fffbfa44;
 font-weight: bold;
 
 }
+
+
+ table, th, td {
+border: 1px solid rgb(0, 0, 0);
+  border-style: ridge;
+   border-color: #5b7777;
+}
